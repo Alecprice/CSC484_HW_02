@@ -1,0 +1,40 @@
+HW-02
+
+(a)MPI-Hello.c
+
+
+Hello from process 0 of 1
+
+
+Hello from process 0 of 2
+Hello from process 1 of 2
+
+
+(b)Ring-Example-1.c
+
+
+Process 0 received token value < 1 > from process 0
+
+Process 0 received token value < 1 > from process 1
+Process 1 received token value < 1 > from process 0
+
+(c)Ring-Example-2.c
+
+Process 0 sent message to process 1
+Process 0 received message: Greeting from process 1!
+Process 1 sent message to process 0
+Process 1 received message: Greeting from process 0!
+
+
+(d)Ring-Example-3.c
+
+Process 0 sent the message > Greeting from process 0! < to process 1
+Process 1 sent the message > Greeting from process 0! < to process 0
+Process 0 received:  Greeting from process 0!
+
+(e)Send-Receive.c
+
+
+Process 0 sent token 1 to process 1
+Process 1 received token 1 from process 0
+
